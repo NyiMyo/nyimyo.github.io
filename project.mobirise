@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MyanmarBiomassPower",
-    "currentPage": "page1.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -26,7 +26,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.7",
-    "uniqCompNum": 13,
+    "uniqCompNum": 24,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png"
   },
@@ -433,7 +433,7 @@
     "page1.html": {
       "settings": {
         "title": "Products",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -844,7 +844,7 @@
     "page2.html": {
       "settings": {
         "title": "AboutUs",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -978,6 +978,655 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-c"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "test",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#f9d124"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f9ce15!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f9d124"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f9d124!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#f9d124",
+            "fontSize": "1.1",
+            "imageSize": "5",
+            "fontName": {
+              "name": "Oswald",
+              "css": "'Oswald', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#tabs3-5\">RICE HUSK PELLET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#tabs3-6\">WOOD PELLET</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#tabs3-7\">MIX PELLET</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT US</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Mission &amp; Vision</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CSR Policy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">History</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbp-logo-304x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "columns": 3,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
+          },
+          "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>",
+          "title1": "Office",
+          "title2": "Factory 1",
+          "title3": "Factory 2",
+          "title4": "For Students",
+          "text1": "No. 16, U Kun Zaw Avenue,<br>Kan Road,<br>Hlaing Township,<br>Yangon,<br>Myanmar",
+          "text2": "19th Street,<br>Kyeik Latt,<br>Ayeyawady Division,<br>Myanmar",
+          "text3": "Yangon Bago Highway, Bander Gone Village, Nyaung Inn Quarter, Bago Division (Near Bago Industrial Zone)&nbsp;<br>",
+          "text4": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Excepturi, consectetur.</a><br /><a href=\"http://mobirise.com\">Similique, debitis.</a><br /><a href=\"http://mobirise.com\">Cum, ea!</a><br /><a href=\"http://mobirise.com\">Asperiores, at.</a><br /><a href=\"http://mobirise.com\">Obcaecati, molestias.</a>",
+          "copy": "MBP, 2018",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-e"
+        },
+        {
+          "_styles": {
+            "th.default": {
+              "background": "#6091b7"
+            },
+            "th.favorite": {
+              "background": "#5aac98"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "columns": 2,
+            "firstType": "caption",
+            "secondType": "favorite",
+            "thirdType": "default",
+            "fourthType": "default",
+            "defaultColor": "#6091b7",
+            "favoriteColor": "#5aac98",
+            "rows": 4,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Pricing table",
+          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla maxime aspernatur inventore, magnam expedita sequi cum, eius debitis nihil. Aspernatur, incidunt distinctio odio sint, quos non magni neque vel, debitis tenetur deserunt ea cum harum molestias vitae. Veritatis praesentium placeat soluta impedit, distinctio aliquid, officiis labore, facilis eius quia, repudiandae!",
+          "title1": "Plan",
+          "title2": "Business",
+          "title3": "Premium",
+          "title4": "Ultimate",
+          "currency": "$",
+          "text11": "Price",
+          "text12": "Storage",
+          "text13": "Users",
+          "text14": "Connection",
+          "text15": "Description",
+          "text16": "Nesciunt! ipsum dolor.",
+          "text17": "Loipsa. consectetur.",
+          "text18": "Lorensectetur, omnis.",
+          "text19": "Lorem ipsa, nobis.",
+          "text211": "<span class=\"price\">19</span>",
+          "text212": "<br>per Month",
+          "text22": "8GB Storage",
+          "text23": "4 Users",
+          "text24": "15 GB bandwidth",
+          "text25": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text26": "Nesciunt! ipsum dolor.",
+          "text27": "Loipsa. consectetur.",
+          "text28": "Lorensectetur, omnis.",
+          "text29": "Lorem ipsa, nobis.",
+          "text311": "<span class=\"price\">29</span>",
+          "text312": "<br>per Month",
+          "text32": "16GB Storage",
+          "text33": "10 Users",
+          "text34": "15 GB bandwidth",
+          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text36": "Nesciunt! ipsum dolor.",
+          "text37": "Loipsa. consectetur.",
+          "text38": "Lorensectetur, omnis.",
+          "text39": "Lorem ipsa, nobis.",
+          "text411": "<span class=\"price\">39</span>",
+          "text412": "<br>per Month",
+          "text42": "32GB Storage",
+          "text43": "Unlimited Users",
+          "text44": "15 GB bandwidth",
+          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text46": "Nesciunt! ipsum dolor.",
+          "text47": "Loipsa. consectetur.",
+          "text48": "Lorensectetur, omnis.",
+          "text49": "Lorem ipsa, nobis.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary-outline\">Buy now!</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-black-outline\">Buy now!</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-warning-outline\">Buy now!</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-f"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-4406-2000x2320.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-4406-2000x2320-800x928.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "All",
+          "_name": "gallery3",
+          "_anchor": "gallery3-g"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "arrowColor": "#e3e3e3",
+            "timeout": 5,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "slides": [
+              {
+                "active": true,
+                "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+                "authorName": "John Smith",
+                "authorBio": "Developer",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+                "authorName": "Abanoub S.",
+                "authorBio": "User",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+                "authorName": "Suffian A.",
+                "authorBio": "User",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                }
+              }
+            ]
+          },
+          "title": "What our fantastic users say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-h"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-i"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "formBg": "#fafbfc",
+            "formHeader": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Send your suggestions",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "form": {
+            "action": "nyimyomail@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-k",
+          "_styles": {
+            ".form": {
+              "background": "#fafbfc"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "formBg": "#fafbfc",
+            "formHeader": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Send your suggestions",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "form": {
+            "action": "nyimyomail@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-l",
+          "_styles": {
+            ".form": {
+              "background": "#fafbfc"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSearch": true,
+            "rowСount": 4,
+            "colCount": 4,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "Table",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Age</th><th>Date</th><th>Salary</th></tr></thead><tbody><tr><td>Jeanna Schmal</td><td>44</td><td>2016-10-17</td><td>$317.000</td></tr><tr><td>Caren Rials</td><td>35</td><td>2013-04-12</td><td>$445.500</td></tr><tr><td>Leon Rogol</td><td>66</td><td>2016-05-22</td><td>$152.558</td></tr><tr><td>Shala Barrera</td><td>70</td><td>2016-05-15</td><td>$459.146</td></tr></tbody>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-m"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Share this page!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "share1",
+          "_anchor": "share1-n"
         }
       ]
     }
