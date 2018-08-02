@@ -725,81 +725,10 @@ a:hover {
 #menu2-b .dropdown-item[aria-expanded="true"] {
   color: #f9d124!important;
 }
-
-#menu2-d .hide-buttons .nav-btn {
-  display: none !important;
+#features17-o .card .mbr-iconfont {
+  color: #fff;
+  border-color: #fff;
 }
-#menu2-d .navbar-toggler {
-  color: #74a3c7;
-}
-#menu2-d .close-icon::before,
-#menu2-d .close-icon::after {
-  background-color: #74a3c7;
-}
-#menu2-d .link,
-#menu2-d .dropdown-item {
-  color: #74a3c7;
-  font-family: 'Oswald', sans-serif;
-}
-#menu2-d .link {
-  font-size: 1.1rem;
-}
-#menu2-d .dropdown-item,
-#menu2-d .nav-dropdown-sm .link {
-  font-size: 1.191rem;
-}
-#menu2-d .link:hover,
-#menu2-d .link:focus {
-  color: #f9d124;
-}
-#menu2-d .dropdown-item:hover::before,
-#menu2-d .dropdown-item:focus::before {
-  background: #f9d124;
-}
-#menu2-d .dropdown-item:hover,
-#menu2-d .dropdown-item:focus {
-  color: #74a3c7;
-}
-#menu2-d .link[aria-expanded="true"],
-#menu2-d .dropdown-menu {
-  background: #f9d124;
-}
-#menu2-d .nav-dropdown-sm .link:focus,
-#menu2-d .nav-dropdown-sm .link:hover,
-#menu2-d .nav-dropdown-sm .dropdown-item:focus,
-#menu2-d .nav-dropdown-sm .dropdown-item:hover {
-  background: #f9ce15!important;
-}
-#menu2-d .navbar,
-#menu2-d .nav-dropdown-sm,
-#menu2-d .nav-dropdown-sm .link[aria-expanded="true"],
-#menu2-d .nav-dropdown-sm .dropdown-menu {
-  background: #f9d124;
-}
-#menu2-d .bg-color.transparent .link {
-  color: #74a3c7;
-  transition: none;
-}
-#menu2-d .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu2-d .bg-color.transparent.opened .link:hover,
-#menu2-d .bg-color.transparent.opened .link:focus {
-  color: #f9d124;
-}
-#menu2-d .link[aria-expanded="true"],
-#menu2-d .dropdown-item[aria-expanded="true"] {
-  color: #f9d124!important;
-}
-#pricing-table1-f th.default {
-  background: #6091b7;
-}
-#pricing-table1-f th.favorite {
-  background: #5aac98;
-}
-#form1-k .form {
-  background: #fafbfc;
-}
-#form1-l .form {
-  background: #fafbfc;
+#features17-o .mbr-table-cell {
+  vertical-align: middle;
 }
