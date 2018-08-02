@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MyanmarBiomassPower",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -21,7 +21,8 @@
       },
       "additionalSetColors": [
         "#f9d124",
-        "#8a1d9d"
+        "#8a1d9d",
+        "#b51212"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -991,7 +992,7 @@
             "showButtons": false,
             "contentAlign": "center",
             "columns": "2",
-            "iconsBgColor": "#fff",
+            "iconsBgColor": "#b51212",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
             "parallax": false,
@@ -1020,17 +1021,18 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "mobirise",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": "50"
             }
           },
           "title1": "What is Mobirise",
           "subtitle1": "Awesome",
-          "text1": "Our mission is to gain full recognition or acceptance of various type of biomass as a reliable source of energy alternative to fosil fuel in Myanmar.",
+          "text1": "<b><i>Our mission is to gain full recognition or acceptance of various type of biomass as a reliable source of energy alternative to fosil fuel in Myanmar.</i></b>",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
@@ -1044,7 +1046,7 @@
           },
           "title2": "What is Mobirise",
           "subtitle2": "Awesome",
-          "text2": "With the rapid growth of the Myanmar economy, we strongly believe the biomass shall play a major role to meet the energy demand without significant impact on the enviroment.&nbsp;<br>It is our vision to be a leading supplier of biomass fuel in order to support of our clients and society as a whole.",
+          "text2": "<b><i>With the rapid growth of the Myanmar economy, we strongly believe the biomass shall play a major role to meet the energy demand without significant impact on the enviroment.&nbsp;<br>It is our vision to be a leading supplier of biomass fuel in order to support of our clients and society as a whole.</i></b>",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
@@ -1081,8 +1083,8 @@
           "_anchor": "features17-o",
           "_styles": {
             ".card .mbr-iconfont": {
-              "color": "#fff",
-              "border-color": "#fff"
+              "color": "#b51212",
+              "border-color": "#b51212"
             },
             ".mbr-table-cell": {
               "vertical-align": "middle"
