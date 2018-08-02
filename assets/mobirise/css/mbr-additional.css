@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
 
@@ -31,7 +31,7 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 .btn {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -52,14 +52,14 @@ h6,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block,
 .mbr-section-subtitle {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .mbr-author-name {
   font-family: 'Oswald', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
@@ -67,7 +67,7 @@ h6,
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .bg-primary {
@@ -731,4 +731,83 @@ a:hover {
 }
 #features17-o .mbr-table-cell {
   vertical-align: middle;
+}
+
+#menu2-u .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu2-u .navbar-toggler {
+  color: #74a3c7;
+}
+#menu2-u .close-icon::before,
+#menu2-u .close-icon::after {
+  background-color: #74a3c7;
+}
+#menu2-u .link,
+#menu2-u .dropdown-item {
+  color: #74a3c7;
+  font-family: 'Oswald', sans-serif;
+}
+#menu2-u .link {
+  font-size: 1.1rem;
+}
+#menu2-u .dropdown-item,
+#menu2-u .nav-dropdown-sm .link {
+  font-size: 1.191rem;
+}
+#menu2-u .link:hover,
+#menu2-u .link:focus {
+  color: #f9d124;
+}
+#menu2-u .dropdown-item:hover::before,
+#menu2-u .dropdown-item:focus::before {
+  background: #f9d124;
+}
+#menu2-u .dropdown-item:hover,
+#menu2-u .dropdown-item:focus {
+  color: #74a3c7;
+}
+#menu2-u .link[aria-expanded="true"],
+#menu2-u .dropdown-menu {
+  background: #f9d124;
+}
+#menu2-u .nav-dropdown-sm .link:focus,
+#menu2-u .nav-dropdown-sm .link:hover,
+#menu2-u .nav-dropdown-sm .dropdown-item:focus,
+#menu2-u .nav-dropdown-sm .dropdown-item:hover {
+  background: #f9ce15!important;
+}
+#menu2-u .navbar,
+#menu2-u .nav-dropdown-sm,
+#menu2-u .nav-dropdown-sm .link[aria-expanded="true"],
+#menu2-u .nav-dropdown-sm .dropdown-menu {
+  background: #f9d124;
+}
+#menu2-u .bg-color.transparent .link {
+  color: #74a3c7;
+  transition: none;
+}
+#menu2-u .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu2-u .bg-color.transparent.opened .link:hover,
+#menu2-u .bg-color.transparent.opened .link:focus {
+  color: #f9d124;
+}
+#menu2-u .link[aria-expanded="true"],
+#menu2-u .dropdown-item[aria-expanded="true"] {
+  color: #f9d124!important;
+}
+#features4-w .card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+#features4-w .card-img a {
+  border-width: 2px;
+  line-height: 72px;
+}
+#features4-w .mbr-iconfont {
+  color: #616161;
+  border-color: #616161;
 }
