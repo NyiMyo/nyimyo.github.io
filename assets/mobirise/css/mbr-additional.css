@@ -824,3 +824,10 @@ a:hover {
   color: #616161;
   border-color: #616161;
 }
+#features18-z .card .mbr-iconfont {
+  color: #fff;
+  border-color: #fff;
+}
+#features18-z .mbr-table-cell {
+  vertical-align: middle;
+}
