@@ -811,3 +811,16 @@ a:hover {
   color: #616161;
   border-color: #616161;
 }
+#features4-x .card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+#features4-x .card-img a {
+  border-width: 2px;
+  line-height: 72px;
+}
+#features4-x .mbr-iconfont {
+  color: #616161;
+  border-color: #616161;
+}
