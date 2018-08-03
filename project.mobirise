@@ -1265,7 +1265,7 @@
             }
           },
           "_params": {
-            "paddingTop": 2,
+            "paddingTop": "3",
             "paddingBottom": "0",
             "showHeading": true,
             "showTitle": true,
@@ -1508,8 +1508,8 @@
         },
         {
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgicon": true,
             "showHeading": true,
             "showTitle": true,
