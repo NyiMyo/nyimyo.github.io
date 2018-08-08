@@ -586,6 +586,12 @@ a:hover {
 #slider2-3 .mbr-section-text {
   color: #fff;
 }
+#slider2-3 .mbr-section-text {
+  font-size: 22px;
+}
+#slider2-3 .mbr-section-title {
+  font-size: 60px;
+}
 #features3-8 .mbr-iconfont {
   background: #f9d124;
   border-color: #f9d124;
@@ -696,19 +702,19 @@ a:hover {
 }
 #menu2-b .link[aria-expanded="true"],
 #menu2-b .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-b .nav-dropdown-sm .link:focus,
 #menu2-b .nav-dropdown-sm .link:hover,
 #menu2-b .nav-dropdown-sm .dropdown-item:focus,
 #menu2-b .nav-dropdown-sm .dropdown-item:hover {
-  background: #f9ce15!important;
+  background: #ffd276!important;
 }
 #menu2-b .navbar,
 #menu2-b .nav-dropdown-sm,
 #menu2-b .nav-dropdown-sm .link[aria-expanded="true"],
 #menu2-b .nav-dropdown-sm .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-b .bg-color.transparent .link {
   color: #74a3c7;
@@ -731,6 +737,12 @@ a:hover {
 }
 #features17-o .mbr-table-cell {
   vertical-align: middle;
+}
+#features17-o .card-title I {
+  font-size: 22px;
+}
+#header6-t P {
+  font-size: 20px;
 }
 
 #menu2-u .hide-buttons .nav-btn {
@@ -901,10 +913,6 @@ a:hover {
 #content5-14 .mbr-section-subtitle {
   margin-bottom: 1rem;
   color: #ffffff;
-}
-#content5-14 .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #content5-14 .mbr-table-cell {
   vertical-align: middle;
