@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.7",
-    "uniqCompNum": 42,
+    "uniqCompNum": 43,
     "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -1949,36 +1949,35 @@
           }
         },
         {
-          "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "color": "#616161",
-              "border-color": "#616161",
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".heading": {
-              "background": "#447eaa"
+          "_params": {
+            "googleMap": {
+              "address": "khattar Oo Co., Ltd",
+              "placeId": "ChIJQVkmUL-UwTARzl8raDfVk8s",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-13"
+        },
+        {
           "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "showHeading": true,
             "showTitle": true,
-            "showText": true,
-            "showCheckbox": false,
-            "formBg": "#447eaa",
-            "formHeader": false,
-            "paddingTop": "0",
-            "paddingBottom": 1,
+            "showText": false,
+            "showButtons": false,
+            "formBg": "#fafbfc",
+            "formHeader": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fffffd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -1989,8 +1988,8 @@
           },
           "title": "Send your suggestions",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "Leave us a message",
           "form": {
             "action": "nyimyomail@gmail.com",
             "alerts": {
@@ -2018,28 +2017,20 @@
               }
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
-          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send message</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "form3",
-          "_anchor": "form3-12"
-        },
-        {
-          "_params": {
-            "googleMap": {
-              "address": "khattar Oo Co., Ltd",
-              "placeId": "ChIJQVkmUL-UwTARzl8raDfVk8s",
-              "state": "ok",
-              "stateDetails": ""
+          "_name": "form1",
+          "_anchor": "form1-16",
+          "_styles": {
+            ".form": {
+              "background": "#fafbfc"
+            },
+            ".form-title": {
+              "font-size": "20px"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-13"
+          }
         }
       ]
     }

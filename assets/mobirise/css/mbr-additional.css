@@ -934,17 +934,9 @@ a:hover {
 #features17-15 .mbr-table-cell {
   vertical-align: middle;
 }
-#form3-12 .card {
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
+#form1-16 .form {
+  background: #fafbfc;
 }
-#form3-12 .card-img a {
-  color: #616161;
-  border-color: #616161;
-  border-width: 2px;
-  line-height: 72px;
-}
-#form3-12 .heading {
-  background: #447eaa;
+#form1-16 .form-title {
+  font-size: 20px;
 }
