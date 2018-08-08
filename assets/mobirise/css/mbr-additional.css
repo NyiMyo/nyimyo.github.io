@@ -914,6 +914,10 @@ a:hover {
   margin-bottom: 1rem;
   color: #ffffff;
 }
+#content5-14 .mbr-iconfont {
+  color: undefined;
+  border-color: undefined;
+}
 #content5-14 .mbr-table-cell {
   vertical-align: middle;
 }
@@ -922,6 +926,13 @@ a:hover {
 }
 #content5-14 .heading-title {
   font-size: 72px;
+}
+#features17-15 .card .mbr-iconfont {
+  color: #fff;
+  border-color: #fff;
+}
+#features17-15 .mbr-table-cell {
+  vertical-align: middle;
 }
 #form3-12 .card {
   background-color: transparent;
