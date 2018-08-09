@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MyanmarBiomassPower",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -1114,7 +1114,7 @@
               "vertical-align": "middle"
             },
             ".card-title I": {
-              "font-size": "22px"
+              "font-size": "25px"
             }
           }
         },
