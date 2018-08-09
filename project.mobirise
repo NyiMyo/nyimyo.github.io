@@ -103,7 +103,7 @@
             "logo": true,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffd785",
@@ -125,7 +125,7 @@
               "src": "@PROJECT_PATH@/assets/images/mbp-logo-for-website-304x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -520,7 +520,7 @@
             "logo": true,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffd785",
@@ -542,7 +542,7 @@
               "src": "@PROJECT_PATH@/assets/images/mbp-logo-for-website-304x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -931,7 +931,7 @@
             "logo": true,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffd785",
@@ -953,7 +953,7 @@
               "src": "@PROJECT_PATH@/assets/images/mbp-logo-for-website-304x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -1238,7 +1238,7 @@
             "logo": true,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffd785",
@@ -1260,7 +1260,7 @@
               "src": "@PROJECT_PATH@/assets/images/mbp-logo-for-website-304x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -1715,7 +1715,7 @@
             "logo": true,
             "showBrand": false,
             "hideButtons": true,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#ffd785",
@@ -1737,7 +1737,7 @@
               "src": "@PROJECT_PATH@/assets/images/mbp-logo-for-website-304x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
