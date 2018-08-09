@@ -690,11 +690,11 @@ a:hover {
 }
 #menu2-b .link:hover,
 #menu2-b .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-b .dropdown-item:hover::before,
 #menu2-b .dropdown-item:focus::before {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-b .dropdown-item:hover,
 #menu2-b .dropdown-item:focus {
@@ -725,11 +725,11 @@ a:hover {
 }
 #menu2-b .bg-color.transparent.opened .link:hover,
 #menu2-b .bg-color.transparent.opened .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-b .link[aria-expanded="true"],
 #menu2-b .dropdown-item[aria-expanded="true"] {
-  color: #f9d124!important;
+  color: #ffd785!important;
 }
 #features17-o .card .mbr-iconfont {
   color: #b51212;
