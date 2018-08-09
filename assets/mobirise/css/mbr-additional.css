@@ -624,11 +624,11 @@ a:hover {
 }
 #menu2-4 .link:hover,
 #menu2-4 .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-4 .dropdown-item:hover::before,
 #menu2-4 .dropdown-item:focus::before {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-4 .dropdown-item:hover,
 #menu2-4 .dropdown-item:focus {
@@ -636,19 +636,19 @@ a:hover {
 }
 #menu2-4 .link[aria-expanded="true"],
 #menu2-4 .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-4 .nav-dropdown-sm .link:focus,
 #menu2-4 .nav-dropdown-sm .link:hover,
 #menu2-4 .nav-dropdown-sm .dropdown-item:focus,
 #menu2-4 .nav-dropdown-sm .dropdown-item:hover {
-  background: #f9ce15!important;
+  background: #ffd276!important;
 }
 #menu2-4 .navbar,
 #menu2-4 .nav-dropdown-sm,
 #menu2-4 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu2-4 .nav-dropdown-sm .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-4 .bg-color.transparent .link {
   color: #74a3c7;
@@ -659,11 +659,11 @@ a:hover {
 }
 #menu2-4 .bg-color.transparent.opened .link:hover,
 #menu2-4 .bg-color.transparent.opened .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-4 .link[aria-expanded="true"],
 #menu2-4 .dropdown-item[aria-expanded="true"] {
-  color: #f9d124!important;
+  color: #ffd785!important;
 }
 
 #menu2-b .hide-buttons .nav-btn {
