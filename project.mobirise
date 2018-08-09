@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MyanmarBiomassPower",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -68,10 +68,10 @@
               "font-size": "1.191rem"
             },
             ".link:hover, .link:focus": {
-              "color": "@primaryColor"
+              "color": "#ffd785"
             },
             ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
+              "background": "#ffd785"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
               "color": "#74a3c7"
@@ -93,10 +93,10 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
+              "color": "#ffd785"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f9d124!important"
+              "color": "#ffd785!important"
             }
           },
           "_params": {
@@ -151,14 +151,14 @@
               "font-size": "22px"
             },
             ".mbr-section-title": {
-              "font-size": "60px"
+              "font-size": "30px"
             }
           },
           "_params": {
             "autoplay": true,
             "fullScreen": false,
             "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingBottom": "1",
             "showBullets": true,
             "bgColor": "#eeeeee",
             "timeout": "3",
@@ -175,7 +175,7 @@
                 "overlay": true,
                 "overlayColor": "#a47922",
                 "contentAlign": "center",
-                "text": "We believe strongly in the benefits of developing renewable energy resources in Myanmar. Our pellets are derived from biomass waste generated from Agro and Forestry Industry.&nbsp;",
+                "text": "",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
                 "overlayOpacity": "0.3"
               },
@@ -184,10 +184,10 @@
                 "active": false,
                 "showButtons": false,
                 "showText": false,
-                "showTitle": false,
+                "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "IMAGE SLIDER",
+                "title": "We believe strongly in the benefits of developing renewable energy resources in Myanmar. Our pellets are derived from biomass waste generated from Agro and Forestry Industry.&nbsp;",
                 "overlay": true,
                 "overlayColor": "#a47922",
                 "contentAlign": "center",
@@ -197,7 +197,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/3-600x374.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -229,7 +229,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/our-first-customer-2000x1500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
