@@ -590,7 +590,7 @@ a:hover {
   font-size: 22px;
 }
 #slider2-3 .mbr-section-title {
-  font-size: 30px;
+  font-size: 25px;
 }
 #features3-8 .mbr-iconfont {
   background: #f9d124;
@@ -769,11 +769,11 @@ a:hover {
 }
 #menu2-u .link:hover,
 #menu2-u .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-u .dropdown-item:hover::before,
 #menu2-u .dropdown-item:focus::before {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-u .dropdown-item:hover,
 #menu2-u .dropdown-item:focus {
@@ -781,19 +781,19 @@ a:hover {
 }
 #menu2-u .link[aria-expanded="true"],
 #menu2-u .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-u .nav-dropdown-sm .link:focus,
 #menu2-u .nav-dropdown-sm .link:hover,
 #menu2-u .nav-dropdown-sm .dropdown-item:focus,
 #menu2-u .nav-dropdown-sm .dropdown-item:hover {
-  background: #f9ce15!important;
+  background: #ffd276!important;
 }
 #menu2-u .navbar,
 #menu2-u .nav-dropdown-sm,
 #menu2-u .nav-dropdown-sm .link[aria-expanded="true"],
 #menu2-u .nav-dropdown-sm .dropdown-menu {
-  background: #f9d124;
+  background: #ffd785;
 }
 #menu2-u .bg-color.transparent .link {
   color: #74a3c7;
@@ -804,11 +804,11 @@ a:hover {
 }
 #menu2-u .bg-color.transparent.opened .link:hover,
 #menu2-u .bg-color.transparent.opened .link:focus {
-  color: #f9d124;
+  color: #ffd785;
 }
 #menu2-u .link[aria-expanded="true"],
 #menu2-u .dropdown-item[aria-expanded="true"] {
-  color: #f9d124!important;
+  color: #ffd785!important;
 }
 #features4-w .card {
   background-color: transparent;
