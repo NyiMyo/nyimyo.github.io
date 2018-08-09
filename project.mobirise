@@ -108,7 +108,7 @@
             "transparent": false,
             "bgColor": "#ffd785",
             "fontSize": "1.1",
-            "imageSize": "5",
+            "imageSize": "4.5",
             "fontName": {
               "name": "Oswald",
               "css": "'Oswald', sans-serif",
@@ -525,7 +525,7 @@
             "transparent": false,
             "bgColor": "#ffd785",
             "fontSize": "1.1",
-            "imageSize": "5",
+            "imageSize": "4.5",
             "fontName": {
               "name": "Oswald",
               "css": "'Oswald', sans-serif",
@@ -936,7 +936,7 @@
             "transparent": false,
             "bgColor": "#ffd785",
             "fontSize": "1.1",
-            "imageSize": "5",
+            "imageSize": "4.5",
             "fontName": {
               "name": "Oswald",
               "css": "'Oswald', sans-serif",
@@ -1243,7 +1243,7 @@
             "transparent": false,
             "bgColor": "#ffd785",
             "fontSize": "1.1",
-            "imageSize": "5",
+            "imageSize": "4.5",
             "fontName": {
               "name": "Oswald",
               "css": "'Oswald', sans-serif",
@@ -1720,7 +1720,7 @@
             "transparent": false,
             "bgColor": "#ffd785",
             "fontSize": "1.1",
-            "imageSize": "5",
+            "imageSize": "4.5",
             "fontName": {
               "name": "Oswald",
               "css": "'Oswald', sans-serif",
