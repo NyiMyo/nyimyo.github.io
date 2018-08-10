@@ -151,7 +151,7 @@
               "font-size": "22px"
             },
             ".mbr-section-title": {
-              "font-size": "25px"
+              "font-size": "22px"
             }
           },
           "_params": {
@@ -196,7 +196,7 @@
                 "overlayOpacity": "0.3"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/3-600x374.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-1-600x374.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
